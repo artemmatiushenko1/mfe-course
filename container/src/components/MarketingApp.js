@@ -8,7 +8,7 @@ const MarketingApp = () => {
     mount(rootNodeRef.current);
   }, []);
 
-  return <div ref={rootNodeRef}>MarketingApp</div>;
+  return <div ref={rootNodeRef}></div>;
 };
 
 export default MarketingApp;
