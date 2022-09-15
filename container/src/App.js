@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import { Router, Route, Switch, Redirect } from 'react-router-dom';
-import { StylesProvider, createGenerateClassName } from '@material-ui/core';
+import {
+  StylesProvider,
+  createGenerateClassName,
+} from '@material-ui/core/styles';
 import { lazy } from 'react';
 import { Suspense } from 'react';
 import { createBrowserHistory } from 'history';
